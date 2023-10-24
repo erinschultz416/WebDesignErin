@@ -1,0 +1,57 @@
+html{
+    background-color: #DFD177;
+}
+
+body{
+    background-color: blanchedalmond;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+}
+
+header img{
+    display:block
+    margin: 20px auto;
+    width: 10%;
+}
+
+nav{
+    text-align: center;
+    padding: 20px;
+}
+
+nav a{
+    color: #5E5D49;
+    font-size: 150%;
+    margin:0 20px;
+}
+
+nav a:hover{
+    color:greenyellow;
+    text-decoration: none;
+}
+
+main{
+    padding: 20px;
+}
+
+main img{
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    padding: 40px 0;
+    background-color: #DFD177;
+}
+
+a:hover{
+    color:greenyellow;
+    text-decoration: none;
+}
