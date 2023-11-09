@@ -116,14 +116,16 @@ footer{
     margin: 0 auto;
 }
 
-#about_image_resize{
-    width:50%;
-}
-
 .button:hover{
     background-color: #9EBC9F ;
     color: #AF1B3F;
 }
+
+#about_image_resize{
+    width:50%;
+}
+
+
 
 table{
     border: 4px solid #241909;
