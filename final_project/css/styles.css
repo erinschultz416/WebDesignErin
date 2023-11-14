@@ -25,25 +25,22 @@ header{
     background-color: #A60000;
 }
 
-
- nav{
+/* navigation start*/
+nav{
     padding: 2px 0;
     text-align: center;
 
 }
-
 nav ul{
     padding: 0;
     list-style-type: none;
 
 }
-
 nav li{
     display: block;
      border: 2px solid #241909;
 
 }
-
 nav li a{
     display: block;
     height: 40px;
@@ -54,12 +51,42 @@ nav li a{
     font-size: 1.3em;
     padding: 5px 0;
 }
-
 nav li a:hover{
     background-color: #000000 ;
     color: #FF0000;
 }
+/* navigation end*/
 
+/* home page navigation*/
+#homepagenav{
+    padding: 2px 0;
+    text-align: center;
+
+}
+#homepagenav ul{
+    padding: 0;
+    list-style-type: none;
+
+}
+#homepagenav li{
+    display: block;
+     border: 2px solid #241909;
+
+}
+#homepagenav li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+#homepagenav li a:hover{
+    background-color: #000000 ;
+    color: #FF0000;
+}
 
 footer{
     text-align: center;
@@ -68,7 +95,34 @@ footer{
 
 /* Tablet CSS */
 @media (min-width:768px){
+    nav li{
+        display: inline-block;
+        border: 0;
+    }
+    nav li a{
+        width:150px;
+        margin: 0 5px;
+        border-radius: 10px;
+        border: 2px solid #000000;
+    }
 
+#hompagenav {
+    text-align: center;
+}
+    #homepagenav li{
+        display: block;
+         border: 2px solid #000000;
+    
+    }
+    #homepagenav li a{
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        background-color: white;
+        color: #000000;
+        text-decoration: none;
+        font-size: 1.3em;
+        padding: 5px 0;
 }
 
 /* Desktop CSS */
