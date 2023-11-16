@@ -133,7 +133,7 @@ table img{
 }
 
 .gallery img{
-    width: 50%;
+    width: 75%;
 }
 
 footer{
@@ -189,10 +189,6 @@ aside{
     width:30%;
 }
 
-.gallery img{
-    display: inline-block;
-}
-
 tr, td{
     font-size: 1.2em;
     padding: 20px;
@@ -203,7 +199,8 @@ tr, td{
     text-align: center;
 }
 
-.single_page{
+
+.single_page {
     width: 100%;
 }
 }
@@ -224,10 +221,9 @@ tr, td{
         font-size: 1.2em;
         padding: 20px;
         background-color: #FFFFFF;
-        color: #000000;
-        margin: 0 5px;
         border-radius: 10px;
         text-align: center;
+        margin: 0 auto;
     }
 
     .single_page{
